@@ -1,0 +1,29 @@
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="note-editor">
+      <h2 id="note-editor-title">Create Note</h2><br>
+      <label>Title:</label><br>
+      <input type="text" id="title" name="title" /><br>
+      <label>Body:</label><br>
+      <textarea rows="10" cols="42" id="message" name="message"></textarea><br>
+      <label>Color:</label><br>
+      <select id="color" name="color"><br>
+        <option value="red" selected>Red</option><br>
+        <option value="green">Green</option><br>
+        <option value="blue">Blue</option><br>
+      </select><br>
+      <div id="button"><br>
+        <button id="add-btn">Create Note</button><br>
+        <div id="error"></div><br>
+      </div><br>
+    </div><br>
+	
+    <div id="notes-section">
+      <h2>Notes</h2>
+      <ul id="notes"></ul>
+    </div>
+  </div>
+</body>
